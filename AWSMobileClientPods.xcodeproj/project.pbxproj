@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C36445922F8EF47001E12F5 /* NSUserDefaults+AWSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C36445722F8EF47001E12F5 /* NSUserDefaults+AWSUserDefaults.m */; };
+		1C36445C22F8EF5C001E12F5 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C36445B22F8EF5C001E12F5 /* awsconfiguration.json */; };
+		1CDC6D6D22F7BB740072FC30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC6D6C22F7BB740072FC30 /* AppDelegate.m */; };
+		1CDC6D7322F7BB740072FC30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CDC6D7122F7BB740072FC30 /* Main.storyboard */; };
+		1CDC6D7522F7BB750072FC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CDC6D7422F7BB750072FC30 /* Assets.xcassets */; };
+		1CDC6D7822F7BB750072FC30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CDC6D7622F7BB750072FC30 /* LaunchScreen.storyboard */; };
+		1CDC6D7B22F7BB750072FC30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC6D7A22F7BB750072FC30 /* main.m */; };
+		1CDC6D8322F7BBE80072FC30 /* AWSMobileClientHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC6D8222F7BBE80072FC30 /* AWSMobileClientHelper.swift */; };
+		1CDC6D8722F7BDAA0072FC30 /* macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC6D8622F7BDAA0072FC30 /* macros.swift */; };
+		1CDC6D8C22F7C1300072FC30 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC6D8B22F7C1300072FC30 /* MainViewController.m */; };
+		822CB66E9A3B0F8CF0378BFA /* Pods_AWSMobileClientPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9EBFD5F3E61BA2A64B17DE /* Pods_AWSMobileClientPods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C36445722F8EF47001E12F5 /* NSUserDefaults+AWSUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+AWSUserDefaults.m"; sourceTree = "<group>"; };
+		1C36445822F8EF47001E12F5 /* NSUserDefaults+AWSUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+AWSUserDefaults.h"; sourceTree = "<group>"; };
+		1C36445B22F8EF5C001E12F5 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		1CDC6D6822F7BB740072FC30 /* AWSMobileClientPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSMobileClientPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CDC6D6B22F7BB740072FC30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CDC6D6C22F7BB740072FC30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CDC6D7222F7BB740072FC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CDC6D7422F7BB750072FC30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CDC6D7722F7BB750072FC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CDC6D7922F7BB750072FC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CDC6D7A22F7BB750072FC30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CDC6D8122F7BBE80072FC30 /* AWSMobileClientPods-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AWSMobileClientPods-Bridging-Header.h"; sourceTree = "<group>"; };
+		1CDC6D8222F7BBE80072FC30 /* AWSMobileClientHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSMobileClientHelper.swift; sourceTree = "<group>"; };
+		1CDC6D8622F7BDAA0072FC30 /* macros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macros.swift; sourceTree = "<group>"; };
+		1CDC6D8822F7BE1A0072FC30 /* awsconfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		1CDC6D8A22F7C1300072FC30 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1CDC6D8B22F7C1300072FC30 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		60F5B829FEB31F9BA848FED1 /* Pods-AWSMobileClientPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSMobileClientPods.debug.xcconfig"; path = "Target Support Files/Pods-AWSMobileClientPods/Pods-AWSMobileClientPods.debug.xcconfig"; sourceTree = "<group>"; };
+		7B87F2DE8D31A1976946AC8E /* Pods-AWSMobileClientPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSMobileClientPods.release.xcconfig"; path = "Target Support Files/Pods-AWSMobileClientPods/Pods-AWSMobileClientPods.release.xcconfig"; sourceTree = "<group>"; };
+		CC9EBFD5F3E61BA2A64B17DE /* Pods_AWSMobileClientPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSMobileClientPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CDC6D6522F7BB740072FC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822CB66E9A3B0F8CF0378BFA /* Pods_AWSMobileClientPods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C36445622F8EF47001E12F5 /* CustomCategories */ = {
+			isa = PBXGroup;
+			children = (
+				1C36445722F8EF47001E12F5 /* NSUserDefaults+AWSUserDefaults.m */,
+				1C36445822F8EF47001E12F5 /* NSUserDefaults+AWSUserDefaults.h */,
+			);
+			path = CustomCategories;
+			sourceTree = "<group>";
+		};
+		1C36445A22F8EF5C001E12F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C36445B22F8EF5C001E12F5 /* awsconfiguration.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1CDC6D5F22F7BB740072FC30 = {
+			isa = PBXGroup;
+			children = (
+				1CDC6D6A22F7BB740072FC30 /* AWSMobileClientPods */,
+				1CDC6D6922F7BB740072FC30 /* Products */,
+				E492F6140CC3B64A35A17E16 /* Pods */,
+				E8A4E48A48079229962BAE1F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1CDC6D6922F7BB740072FC30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CDC6D6822F7BB740072FC30 /* AWSMobileClientPods.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CDC6D6A22F7BB740072FC30 /* AWSMobileClientPods */ = {
+			isa = PBXGroup;
+			children = (
+				1C36445A22F8EF5C001E12F5 /* Resources */,
+				1C36445622F8EF47001E12F5 /* CustomCategories */,
+				1CDC6D6B22F7BB740072FC30 /* AppDelegate.h */,
+				1CDC6D6C22F7BB740072FC30 /* AppDelegate.m */,
+				1CDC6D7122F7BB740072FC30 /* Main.storyboard */,
+				1CDC6D7422F7BB750072FC30 /* Assets.xcassets */,
+				1CDC6D7622F7BB750072FC30 /* LaunchScreen.storyboard */,
+				1CDC6D7922F7BB750072FC30 /* Info.plist */,
+				1CDC6D7A22F7BB750072FC30 /* main.m */,
+				1CDC6D8222F7BBE80072FC30 /* AWSMobileClientHelper.swift */,
+				1CDC6D8122F7BBE80072FC30 /* AWSMobileClientPods-Bridging-Header.h */,
+				1CDC6D8622F7BDAA0072FC30 /* macros.swift */,
+				1CDC6D8822F7BE1A0072FC30 /* awsconfiguration.json */,
+				1CDC6D8A22F7C1300072FC30 /* MainViewController.h */,
+				1CDC6D8B22F7C1300072FC30 /* MainViewController.m */,
+			);
+			path = AWSMobileClientPods;
+			sourceTree = "<group>";
+		};
+		E492F6140CC3B64A35A17E16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60F5B829FEB31F9BA848FED1 /* Pods-AWSMobileClientPods.debug.xcconfig */,
+				7B87F2DE8D31A1976946AC8E /* Pods-AWSMobileClientPods.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E8A4E48A48079229962BAE1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC9EBFD5F3E61BA2A64B17DE /* Pods_AWSMobileClientPods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CDC6D6722F7BB740072FC30 /* AWSMobileClientPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CDC6D7E22F7BB750072FC30 /* Build configuration list for PBXNativeTarget "AWSMobileClientPods" */;
+			buildPhases = (
+				7DDC2111CAA2D4E17598E736 /* [CP] Check Pods Manifest.lock */,
+				1CDC6D6422F7BB740072FC30 /* Sources */,
+				1CDC6D6522F7BB740072FC30 /* Frameworks */,
+				1CDC6D6622F7BB740072FC30 /* Resources */,
+				884D42E8B5CF222AE75050EF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWSMobileClientPods;
+			productName = AWSMobileClientPods;
+			productReference = 1CDC6D6822F7BB740072FC30 /* AWSMobileClientPods.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CDC6D6022F7BB740072FC30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = irs;
+				TargetAttributes = {
+					1CDC6D6722F7BB740072FC30 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 1CDC6D6322F7BB740072FC30 /* Build configuration list for PBXProject "AWSMobileClientPods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CDC6D5F22F7BB740072FC30;
+			productRefGroup = 1CDC6D6922F7BB740072FC30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CDC6D6722F7BB740072FC30 /* AWSMobileClientPods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CDC6D6622F7BB740072FC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C36445C22F8EF5C001E12F5 /* awsconfiguration.json in Resources */,
+				1CDC6D7822F7BB750072FC30 /* LaunchScreen.storyboard in Resources */,
+				1CDC6D7522F7BB750072FC30 /* Assets.xcassets in Resources */,
+				1CDC6D7322F7BB740072FC30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DDC2111CAA2D4E17598E736 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWSMobileClientPods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		884D42E8B5CF222AE75050EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AWSMobileClientPods/Pods-AWSMobileClientPods-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AWSMobileClientPods/Pods-AWSMobileClientPods-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AWSMobileClientPods/Pods-AWSMobileClientPods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CDC6D6422F7BB740072FC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDC6D8322F7BBE80072FC30 /* AWSMobileClientHelper.swift in Sources */,
+				1CDC6D8722F7BDAA0072FC30 /* macros.swift in Sources */,
+				1CDC6D7B22F7BB750072FC30 /* main.m in Sources */,
+				1CDC6D8C22F7C1300072FC30 /* MainViewController.m in Sources */,
+				1CDC6D6D22F7BB740072FC30 /* AppDelegate.m in Sources */,
+				1C36445922F8EF47001E12F5 /* NSUserDefaults+AWSUserDefaults.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1CDC6D7122F7BB740072FC30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CDC6D7222F7BB740072FC30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CDC6D7622F7BB750072FC30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CDC6D7722F7BB750072FC30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CDC6D7C22F7BB750072FC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1CDC6D7D22F7BB750072FC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CDC6D7F22F7BB750072FC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F5B829FEB31F9BA848FED1 /* Pods-AWSMobileClientPods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EV6FA5QMY9;
+				INFOPLIST_FILE = AWSMobileClientPods/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.irs.AWSMobileClientPods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AWSMobileClientPods/AWSMobileClientPods-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CDC6D8022F7BB750072FC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B87F2DE8D31A1976946AC8E /* Pods-AWSMobileClientPods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EV6FA5QMY9;
+				INFOPLIST_FILE = AWSMobileClientPods/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.irs.AWSMobileClientPods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AWSMobileClientPods/AWSMobileClientPods-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CDC6D6322F7BB740072FC30 /* Build configuration list for PBXProject "AWSMobileClientPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDC6D7C22F7BB750072FC30 /* Debug */,
+				1CDC6D7D22F7BB750072FC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CDC6D7E22F7BB750072FC30 /* Build configuration list for PBXNativeTarget "AWSMobileClientPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDC6D7F22F7BB750072FC30 /* Debug */,
+				1CDC6D8022F7BB750072FC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CDC6D6022F7BB740072FC30 /* Project object */;
+}
